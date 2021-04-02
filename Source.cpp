@@ -15,7 +15,7 @@ void SWAP(T &a, T &b) {
 	int counter = 0;
 	while (str[counter]!='\0')
 	{
-		counter++; //rgdrgrgdrg
+		counter++; 
 	}
 	return counter;
 }*/
