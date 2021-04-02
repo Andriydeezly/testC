@@ -3,7 +3,7 @@
 #include<cstring>
 #include<ctime>
 using namespace std;
-//guigiu
+//guigiurgdgrddaawfwafwgit 
 	/*template<typename T>
 void SWAP(T &a, T &b) {
 	T temp = a;
