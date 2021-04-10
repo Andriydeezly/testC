@@ -35,7 +35,7 @@ void SWAP(T &a, T &b) {
 	cout << endl;
 }*/
 
-class Point	
+/*class Point	
 {
 private:
 	int x;
@@ -74,6 +74,45 @@ public:
 }*/
 
 
+/*class Image			
+{
+public:
+	void Getimageinfo() {
+		for (int i = 0; i < Lenght; i++)
+		{
+			cout << pixels[i].GetInfo() << endl;
+		}
+	}
+
+private:
+
+class Pixel
+{
+public:
+Pixel(int r,int g,int b){
+	this ->r = r;
+	this ->g = g;
+	this ->b = b;
+}
+string GetInfo(){
+	return "Pixel r=" + to_string(r) + "Pixel g=" + to_string(g) + "Pixel b=" + to_string(b);
+}
+private:
+int r;
+int g;
+int b;
+};
+
+static const int Lenght = 5;
+
+Pixel pixels[5]{
+pixels(0,4,64),
+pixels(4,14,10),
+pixels(111,4,24),
+pixels(224,224,14),
+pixels(111,179,64)
+};
+};	
 
 int  main() {
 	setlocale(LC_ALL, "Russian");
@@ -479,11 +518,13 @@ cout << "firstArr=\t";
 ShowArray(firstArr, size);
 cout << "secondArr=\t";
 ShowArray(secondArr, size);*/
-	Point a(1,5);
-	Point b(4,6);
-	Point c = a + b;
+
+int main(){
 return 0;
 }
+
+
+
 
 
 
